@@ -26,7 +26,7 @@ async def startcmd(client, message):
     keyboard = InlineKeyboardMarkup([
         [InlineKeyboardButton("• ᴀʙᴏᴜᴛ •", callback_data="about"),
          InlineKeyboardButton("• ʜᴇʟᴘ •", callback_data="help")],
-        [InlineKeyboardButton("♻ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♻", url="https://telegram.me/TechifyRahul")]
+        [InlineKeyboardButton("♻ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♻", url="https://t.me/akmovieshubbackup")]
     ])
 
     await client.send_photo(
@@ -45,7 +45,7 @@ async def handle_button_click(client, callback_query):
             "**✨ --ᴜsᴇs ᴏꜰ ᴄᴏᴍᴍᴀɴᴅs--\n\n• /ask - ɪꜰ ʏᴏᴜ ᴀʀᴇ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ ɪɴ ɢʀᴏᴜᴘ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴀsᴋ ᴀɴʏᴛʜɪɴɢ\n\nᴇx: `/ask what is AI?`\n\nɴᴏᴛᴇ : ɪɴ ᴘʀɪᴠᴀᴛᴇ ʏᴏᴜ ᴅᴏɴ'ᴛ ɴᴇᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs\n\n• /mode - ᴄʜᴏᴏsᴇ ʏᴏᴜʀ ᴄᴏɴᴠᴇʀsᴀᴛɪᴏɴ sᴛʏʟᴇ**"
         )
         help_keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("👨‍💻  ʀᴇᴘᴏ", url="https://github.com/TechifyBots"),
+            [InlineKeyboardButton("👨‍💻  ʀᴇᴘᴏ", url="https://t.me/akmoviebotz"),
              InlineKeyboardButton("💥  ᴅᴏɴᴀᴛᴇ", callback_data="donate")],
             [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start")]
         ])
@@ -82,11 +82,11 @@ async def handle_button_click(client, callback_query):
 
     elif data == "about":
         about_message = (
-            "**ᴍʏ ɴᴀᴍᴇ : [ᴀɪ ɴᴇᴜʀᴀ ʙᴏᴛ](https://telegram.me/AINeuraBot)\n"
+            "**ᴍʏ ɴᴀᴍᴇ : [ᴀɪ ɴᴇᴜʀᴀ ʙᴏᴛ](https://t.me/akmovieshubbackup)\n"
             "ʜᴏsᴛᴇᴅ ᴏɴ : ᴋᴏʏᴇʙ\n"
             "ᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏᴅʙ\n"
             "ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 𝟹\n"
-            "ᴍʏ ᴄʀᴇᴀᴛᴏʀ : [ʀᴀʜᴜʟ](https://telegram.me/callownerbot)**"
+            "ᴍʏ ᴄʀᴇᴀᴛᴏʀ : [Akmoviebotz](https://telegram.me/The_SonGoku)**"
         )
         about_keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
