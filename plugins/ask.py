@@ -113,7 +113,7 @@ async def handle_chatgpt_mode(client, message):
             await searching_message.edit_text(
                 f"**{message.from_user.mention},** {response_text}",
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("ʟᴇᴀʀɴ ᴄᴏᴅɪɴɢ 👨‍💻", url="https://techifybots.blogspot.com")]]
+                    [[InlineKeyboardButton("Join Movies Channel", url="https://t.me/akmovieshubbackup")]]
                 )
             )
         else:
@@ -163,7 +163,7 @@ async def handle_gemini_mode(client, message):
             await message.reply_text(
                 f"**{message.from_user.mention},** {response.text}",
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("ʟᴇᴀʀɴ ᴄᴏᴅɪɴɢ 👨‍💻", url="https://techifybots.blogspot.com")]]
+                    [[InlineKeyboardButton("Join Back-up", url="https://t.me/akmovieshubbackup")]]
                 )
             )
         else:
