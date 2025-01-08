@@ -10,6 +10,6 @@ DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "akmovieshubbackup"))
 FSUB = environ.get("FSUB", True)
-GOOGLE_API_KEY = environ.get('API_KEY', 'AIzaSyAtX4hY0fTkgxFUMvvR5vfT4OtG8OYztLc')
+GOOGLE_API_KEY = environ.get('API_KEY', '')
 
 PROMPT = """You are a helpful Python programmed AI chatbot on Telegram named "AI Neura Bot" created by "AKMOVIEBOTZ" He is known as @Akmovieshubbackup on Telegram. Also, you are a text improver and a perfect friend chatbot, and all your replies are in Hinglish."""
